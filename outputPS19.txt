@@ -1,0 +1,36 @@
+addPerson1 >> 1
+addPerson2 >> 1
+addPerson3 >> 1
+addPerson4 >> 1
+addPerson5 >> 1
+getWindow1 >> [1, 2, 3, 4, 5]
+getWindow2 >> []
+isOpen1 >> True
+isOpen2 >> False
+addPerson6 >> 2
+getWindow1 >> [1, 2, 3, 4, 5]
+getWindow2 >> [6]
+giveTicket >> 2
+giveTicket >> 1
+giveTicket >> 1
+getWindow1 >> [4, 5]
+getWindow2 >> []
+
+
+addPerson:1 >> 1
+addPerson:2 >> 1
+addPerson:3 >> 1
+addPerson:4 >> 1
+addPerson:5 >> 1
+getWindow:1 >> [1, 2, 3, 4, 5]
+getWindow:2 >> []
+isOpen:1 >> True
+isOpen:2 >> False
+addPerson:6 >> 2
+getWindow:1 >> [1, 2, 3, 4, 5]
+getWindow:2 >> [6]
+giveTicket: >> 2
+giveTicket: >> 1
+giveTicket: >> 1
+getWindow:1 >> [4, 5]
+getWindow:2 >> []
